@@ -1,0 +1,62 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+}
+
+.flex-item {
+  font-family: "Courier New", Courier, monospace;
+  margin: 10px;
+  padding: 20px;
+}
+
+.imagen {
+  width: 200px;
+}
+
+.Titulo {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  padding: 10px;
+  background-color: deepskyblue;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  border-style: solid;
+  font-family: "LED Digital 7", sans-serif;
+  font-size: 50px;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.resultado {
+  display: grid;
+  grid-template-columns: auto;
+  border-style: solid;
+  font-family: "LED Digital 7", sans-serif;
+  font-size: 50px;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+.keyboard-item {
+  border-style: solid;
+  text-align: center;
+  padding: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.keyboard-item:hover {
+  background-color: darkgrey;
+  cursor: pointer;
+}

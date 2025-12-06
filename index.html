@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/led-digital-7"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="container">0</div>
+    <div class="resultado">0</div>
+    <div class="keyboard">
+      <div class="keyboard-item" onclick="changeValue(7)">7</div>
+      <div class="keyboard-item" onclick="changeValue(8)">8</div>
+      <div class="keyboard-item" onclick="changeValue(9)">9</div>
+      <div class="keyboard-item" onclick="handleOperation('+')">+</div>
+      <div class="keyboard-item" onclick="changeValue(4)">4</div>
+      <div class="keyboard-item" onclick="changeValue(5)">5</div>
+      <div class="keyboard-item" onclick="changeValue(6)">6</div>
+      <div class="keyboard-item" onclick="handleOperation('-')">-</div>
+      <div class="keyboard-item" onclick="changeValue(1)">1</div>
+      <div class="keyboard-item" onclick="changeValue(2)">2</div>
+      <div class="keyboard-item" onclick="changeValue(3)">3</div>
+      <div class="keyboard-item" onclick="handleOperation('*')">*</div>
+      <div class="keyboard-item" onclick="clearDisplay()">CE</div>
+      <div class="keyboard-item" onclick="changeValue(0)">0</div>
+      <div class="keyboard-item" onclick="handleOperation('/')">/</div>
+      <div class="keyboard-item" onclick="handleEqual()">=</div>
+
+      <script src="js/index.js"></script>
+    </div>
+  </body>
+</html>
